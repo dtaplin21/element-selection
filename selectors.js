@@ -1,19 +1,39 @@
 const select = () => {
     /* Write queries for each of the following */
 
+    //geet elements by id
+    document.getElementsById("one");
+
+    document.getElementByLastName("className");
+
+    document.getElementByTagName("span");
+
+    document.querySelector("*")
+
+    //select all matching elements using cs selectors
+    document.querySelectorALL("*")
+
+
     /* Section 1 */
     // 1. Get all seeded fruit elements
-    // Your code here
-    
+    const seeded = document.getElementsByClass("seed");
+    conssole.log(seeded);
+    seeded[0].innerText = "apple uses this"
+
     // 2. Get all seedless fruit elements
-    // Your code here
+    const firstSeedless = document.querySelector(".seedless");
+    console.log(firstSeedless)
 
     // 3. Get first seedless fruit element
-    // Your code here
+
 
     /* Section 2 */
     // 4. Get inner span with text "you"
-    // Your code here
+    const youSpan = Document.querySelector("span");
+    const idTwo = document.getElementsById("two");
+    const twoChildren = idTwo.children;
+    const wrapper = twoChildren[1];
+    console.loog(wrapper)
 
     // 5. Get all children of element "wrapper"
     // Your code here
