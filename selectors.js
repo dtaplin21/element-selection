@@ -1,7 +1,7 @@
 const select = () => {
     /* Write queries for each of the following */
 
-    //geet elements by id
+    //get elements by id
     document.getElementsById("one");
 
     document.getElementByLastName("className");
@@ -21,11 +21,11 @@ const select = () => {
     seeded[0].innerText = "apple uses this"
 
     // 2. Get all seedless fruit elements
-    const firstSeedless = document.querySelector(".seedless");
+    const allSeedless = document.querySelector(".seedless");
     console.log(firstSeedless)
 
     // 3. Get first seedless fruit element
-
+    const firstSeedless = document.getElementById("one")
 
     /* Section 2 */
     // 4. Get inner span with text "you"
